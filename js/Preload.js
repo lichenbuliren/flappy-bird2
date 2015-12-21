@@ -28,7 +28,6 @@ FlappyBird.Preload.prototype = {
         this.load.image('background', './assets/background.png'); //游戏背景图
         this.load.image('ground', './assets/ground.png'); //地面
         this.load.image('title', './assets/title.png'); //游戏标题
-        // this.load.spritesheet('bird','./assets/bird.png',34,24,3); //鸟
         this.load.image('btn', './assets/start-button.png'); //按钮
         this.load.spritesheet('pipe', './assets/pipes.png', 54, 320, 2); //管道
         this.load.bitmapFont('flappy_font', './assets/fonts/flappyfont/flappyfont.png', './assets/fonts/flappyfont/flappyfont.fnt'); //显示分数的字体
