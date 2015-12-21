@@ -7,7 +7,8 @@ FlappyBird.Boot.prototype = {
         console.log('this is Boot state');
     },
     preload: function(){
-        this.load.image('loading','../assets/preloader.gif');
+        // this.load.image('loading','../assets/preloader.gif');
+        this.load.spritesheet('bird','./assets/bird.png',34,24,3); //鸟
     },
     create: function(){
         // 设置舞台背景色
