@@ -1,15 +1,6 @@
 var FlappyBird = FlappyBird || {};
 
 FlappyBird.Play = function() {
-    //this.bg = null;
-    //this.bird = null;
-    //this.ground = null;
-    //this.pipeGroup = null;
-    //this.gameSpeed = 200; // 游戏速度
-    //this.gameIsOver = false; // 游戏是否结束
-    //this.hasHitGround = false; // 是否撞击地面
-    //this.hasStarted = false;
-    //this.score = 0; // 初始得分
     this.gameSpeed = 200; // 游戏速度
     this.bestScore = 0;
     this.bg = null;
